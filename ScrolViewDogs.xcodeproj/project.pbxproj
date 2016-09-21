@@ -10,10 +10,10 @@
 		040E73A51D930171009E1C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E73A41D930171009E1C09 /* AppDelegate.swift */; };
 		040E73A71D930171009E1C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E73A61D930171009E1C09 /* ViewController.swift */; };
 		040E73AA1D930171009E1C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E73A81D930171009E1C09 /* Main.storyboard */; };
-		040E73AC1D930171009E1C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E73AB1D930171009E1C09 /* Assets.xcassets */; };
 		040E73AF1D930171009E1C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E73AD1D930171009E1C09 /* LaunchScreen.storyboard */; };
 		040E73BA1D930171009E1C09 /* ScrolViewDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E73B91D930171009E1C09 /* ScrolViewDogsTests.swift */; };
 		040E73C51D930171009E1C09 /* ScrolViewDogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E73C41D930171009E1C09 /* ScrolViewDogsUITests.swift */; };
+		040E73D31D9302FE009E1C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E73D21D9302FE009E1C09 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		040E73A41D930171009E1C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040E73A61D930171009E1C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040E73A91D930171009E1C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		040E73AB1D930171009E1C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040E73AE1D930171009E1C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040E73B01D930171009E1C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040E73B51D930171009E1C09 /* ScrolViewDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrolViewDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		040E73C01D930171009E1C09 /* ScrolViewDogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrolViewDogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E73C41D930171009E1C09 /* ScrolViewDogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolViewDogsUITests.swift; sourceTree = "<group>"; };
 		040E73C61D930171009E1C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E73D21D9302FE009E1C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 				040E73A41D930171009E1C09 /* AppDelegate.swift */,
 				040E73A61D930171009E1C09 /* ViewController.swift */,
 				040E73A81D930171009E1C09 /* Main.storyboard */,
-				040E73AB1D930171009E1C09 /* Assets.xcassets */,
 				040E73AD1D930171009E1C09 /* LaunchScreen.storyboard */,
+				040E73D21D9302FE009E1C09 /* Assets.xcassets */,
 				040E73B01D930171009E1C09 /* Info.plist */,
 			);
 			path = ScrolViewDogs;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040E73AF1D930171009E1C09 /* LaunchScreen.storyboard in Resources */,
-				040E73AC1D930171009E1C09 /* Assets.xcassets in Resources */,
+				040E73D31D9302FE009E1C09 /* Assets.xcassets in Resources */,
 				040E73AA1D930171009E1C09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
